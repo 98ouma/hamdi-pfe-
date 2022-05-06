@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --width: 1200px;
+  }
+  
+
+
+.section-el{
+    width: var(--width);
+    margin: auto;
+  }
+
+
+  #sec3 .cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #sec3 .cards .carte{
+      display: flex;
+      align-items: center;
+      width: 50%;
+      margin-bottom: 20px;
+  }
+  #sec3 .carte  img{
+      height: 30px; 
+  }
+  #sec3 .cards .carte h4{
+      font-size: 18px;
+      margin: 0px 5px;
+  }
+  

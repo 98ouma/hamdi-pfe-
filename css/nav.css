@@ -1,0 +1,86 @@
+:root {
+  --width: 1200px;
+}
+
+nav {
+  background-color: #014034;
+  padding: 10px 0;
+}
+
+.nav-el {
+  max-width: var(--width);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0px;
+}
+
+nav ul {
+  display: flex;
+  color: burlywood;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 18px;
+  position: relative;
+}
+
+nav ul li:hover a {
+  color: burlywood;
+}
+
+nav ul li::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: burlywood;
+  left: 0;
+  bottom: -8px;
+  transform: scalex(0);
+  transform-origin: center;
+  transition: all 0.2s ease-in-out;
+}
+
+nav ul li:hover::after {
+  transform: scale(1);
+}
+
+nav ul a {
+  color: burlywood;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.title {
+  font-size: 48;
+  font-family: poppins;
+  color: var(--main);
+  font-weight: bold;
+  padding: 20px 50px;
+}
+
+.titre {
+  color: var(--main);
+  font-size: 38;
+  font-family: "poppins";
+}
+
+/* ------------------------------admin -nav --------------------------- */
+nav ul img {
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+#dropmenu {
+  height: fit-content;
+}
+
+#dropmenu div a:hover {
+  color: burlywood;
+}

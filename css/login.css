@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main: #006992;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#go-back{
+    position: absolute;
+    width: 30px;
+    left: 10px;
+    top: 10px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+.img-side{
+    height: 100vh;
+    width: 50%;
+    background-image: url("../img/img-1807.jpg");
+    background-size: cover;
+    background-position: center ;  
+}
+.part{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.part h2{
+    margin: 20px auto ;
+}
+.first-p{
+    font-size: 14px;
+    color: rgb(149, 149, 149);
+    margin-bottom: 50px;
+}
+label{
+    color: #014034;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--main);
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info div{
+    display: flex;
+}
+input[type="checkbox"]{
+    height: fit-content;
+    width: fit-content;
+}
+span{
+    font-size: 14px;
+    color: rgb(149, 149, 149);
+}
+
+a{
+    color: var(--main);
+    font-size: 14px;
+    text-decoration: none;
+    height: fit-content;
+}
+
+button{
+    padding: 10px 40px;
+    background: #014034;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
